@@ -159,11 +159,9 @@ Complete this table with your group's actual names and responsibilities before s
 
 | Group member | Contribution |
 |---|---|
-| Member 1 | Add name and actual contribution |
-| Member 2 | Add name and actual contribution |
-| Member 3 | Add name and actual contribution |
-| Member 4 | Add name and actual contribution |
-
+| Anas Mohammed Ahmed | AUD32429 |
+| Rashid Ahmed | AUD32131 |
+| Thareq Rehman | AUD32492 |
 ## 15. Project Information
 
 - **Course:** ITEC 300 – Computer Communications and Networking
