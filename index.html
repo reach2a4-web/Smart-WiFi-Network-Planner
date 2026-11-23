@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Wi-Fi Network Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Smart Wi-Fi Network Planner</h1>
+    <p>Estimate Wi-Fi access points for your university or library</p>
+  </header>
+
+  <main class="container">
+    <section class="planner">
+      <h2>Wi-Fi Capacity Calculator</h2>
+
+      <label for="users">Number of Wi-Fi users</label>
+      <input type="number" id="users" min="0"
+        placeholder="Example: 80">
+
+      <label for="capacity">
+        Planned users per access point
+      </label>
+      <input type="number" id="capacity" min="1"
+        placeholder="Example: 25">
+
+      <button id="calculateBtn">Calculate APs</button>
+      <button id="resetBtn" class="reset">Reset</button>
+
+      <p id="error" role="alert"></p>
+
+      <div id="result" class="result" aria-live="polite">
+        <h2>Results will appear here</h2>
+      </div>
+    </section>
+
+    <section class="information">
+      <h2>About this planner</h2>
+      <p>
+        This application estimates the number of Wi-Fi
+        access points needed based on planned user capacity.
+      </p>
+
+      <h3>Networking concepts</h3>
+      <ul>
+        <li>Wireless LAN (WLAN)</li>
+        <li>Wireless Access Points</li>
+        <li>Network Capacity</li>
+        <li>Network Congestion</li>
+      </ul>
+    </section>
+
+    <section class="diagram">
+      <h2>Simple Network Diagram</h2>
+      <div class="network">
+        <div class="device">Internet</div>
+        <div class="arrow">↓</div>
+        <div class="device">Router / Switch</div>
+        <div class="arrow">↓</div>
+        <div class="device">Wi-Fi Access Points</div>
+        <div class="arrow">↓</div>
+        <div class="device">Student Devices</div>
+      </div>
+    </section>
+
+    <p class="note">
+      Note: This is a capacity estimate. Actual Wi-Fi
+      coverage requires a professional site survey.
+    </p>
+  </main>
+
+  <footer>
+    <p>ITEC 300 - Computer Communications and Networking</p>
+    <p>Smart Wi-Fi Network Planner Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
