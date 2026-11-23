@@ -1,0 +1,161 @@
+
+/* General page design */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f5fa;
+  color: #243247;
+}
+
+/* Header */
+header {
+  background: #153b67;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header p {
+  margin: 0;
+}
+
+/* Main content */
+.container {
+  width: 90%;
+  max-width: 850px;
+  margin: 30px auto;
+}
+
+/* Sections */
+.planner,
+.information,
+.diagram {
+  background: white;
+  padding: 25px;
+  margin-bottom: 22px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+}
+
+h2 {
+  color: #153b67;
+}
+
+/* Input fields */
+label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  margin-top: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  background: #1765b0;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #104b86;
+}
+
+button.reset {
+  background: #64748b;
+  margin-left: 8px;
+}
+
+/* Result */
+.result {
+  margin-top: 22px;
+  padding: 18px;
+  background: #edf5ff;
+  border-radius: 8px;
+  text-align: center;
+  min-height: 80px;
+}
+
+.result h2 {
+  color: #1765b0;
+}
+
+#error {
+  color: #c62828;
+  font-weight: bold;
+}
+
+/* Network diagram */
+.network {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.device {
+  width: 80%;
+  max-width: 300px;
+  padding: 15px;
+  background: #e2efff;
+  border: 1px solid #9dbfe7;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #1765b0;
+}
+
+/* Note and footer */
+.note {
+  background: #fff8df;
+  padding: 15px;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+footer {
+  background: #153b67;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: 30px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .container {
+    width: 94%;
+  }
+
+  .planner,
+  .information,
+  .diagram {
+    padding: 18px;
+  }
+}
+s
